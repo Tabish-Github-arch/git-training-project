@@ -72,4 +72,10 @@
       </plugins>
     </pluginManagement>
   </build>
+   <distributionManagement>
+    <repository>
+     <id>test-repository</id>
+     <url>http://172.29.172.79:8081/repository/test-repository/</url>
+    </repository>
+  </distributionManagement>
 </project>
